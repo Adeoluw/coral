@@ -63,13 +63,13 @@ nav ul {
   padding: 40px;
 }
 
-.hero-text h1{
-    font-size: 55px;
+.hero-text h1 {
+  font-size: 55px;
 }
 
-.hero-text p{
-    font-size: 30px;
-    line-height: 55px;
+.hero-text p {
+  font-size: 30px;
+  line-height: 55px;
 }
 
 .hero-img {
@@ -85,120 +85,219 @@ nav ul {
   border-radius: 100px 0px;
 }
 
-.brands{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-    margin-top: 70px;
+.brands {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin-top: 70px;
 }
 
-.hero-button{
-    background-color: #1E2832;
-    width: 223px;
-    height: 72px;
-    font-size: larger;
+.hero-button {
+  background-color: #1e2832;
+  width: 223px;
+  height: 72px;
+  font-size: larger;
+  color: white;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: white;
+  color: #1e2832;
+  transition: all 1s;
+}
+
+.account {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.shopping {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.section-one {
+  background-color: white;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-style {
+  width: 50%;
+  height: 100%;
+}
+
+.first-style img {
+  width: 100%;
+}
+
+.popular-styles {
+  display: flex;
+  width: 70%;
+  gap: 20px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.other-styles {
+  width: 50%;
+  display: grid;
+  row-gap: 20px;
+  height: 100%;
+  column-gap: 20px;
+  grid-template-columns: auto auto;
+}
+
+.other-styles img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 100%;
+  aspect-ratio: 6/9;
+}
+
+.vertical-text {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-text h1 {
+  writing-mode: vertical-rl;
+  letter-spacing: 30px;
+  text-wrap: nowrap;
+  transform: rotate(180deg);
+  text-align: center;
+  height: 100%;
+  height: fit-content;
+  letter-spacing: 15px;
+}
+
+.newsletter {
+  margin-top: 80px;
+}
+
+.newsletter h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+.categories ul {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  width: 80%;
+}
+
+.categories ul li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.product {
+  width: 20%;
+}
+
+.price-category {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-left: auto;
+}
+
+.product-description {
+  padding: 5px;
+}
+
+.products {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.categories button{
+    background-color: #1e2832;
     color: white;
-    margin-top: 50px;
-    cursor: pointer;
+    width: 83px;
+    height: 35px;
+    font-size: 13px;
+    padding: 5px;
 }
 
-.hero-button:hover{
-    background-color: white;
-    color: #1E2832;
-    transition: all 1s;
+
+.zara img{
+    position: absolute;
+    top: 0;
 }
 
-.account{
+.zara{
+    background-image: url(./zara.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    gap: 10px;
+    height: 100vh;
+    padding: 0;
+    margin-inline: 0;
     align-items: center;
-}
-
-.shopping{
-    display: flex;
-    gap:10px;
-    align-items: center;
-}
-
-.section-one{
-    background-color: white;
-    height: auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.first-style{
-    width: 50%;
-    height: 100%;
-}
-
-.first-style img{
+    flex-direction: row-reverse;
+    position: relative;
     width: 100%;
 }
 
-.popular-styles{
-    display: flex;
-    width: 70%;
-    gap: 20px;
-    height: auto;
-    margin-top: 50px;
-}
-
-.other-styles{
+.zara-text{
+    padding: 30px;
     width: 50%;
-    display: grid;
-    row-gap: 20px;
-    height: 100%;
-    column-gap: 20px;
-    grid-template-columns: auto auto;
+    color: white;
+    padding-right: 287px;
 }
 
-.other-styles img{
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    max-height: 100%;
-    aspect-ratio: 6/9;
+.zara-text h1{
+    font-size: 45px;
 }
 
-.vertical-text{
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.zara-text p{
+    line-height: 25px;
 }
 
-.vertical-text h1{
-    writing-mode: vertical-rl;
-    letter-spacing: 30px; 
-    text-wrap: nowrap;
-    transform: rotate(180deg);
+.zara-text button {
+    margin-top: 35px;
+    width: 165px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.best-sellers h1{
     text-align: center;
-    height: 100%;
-    height: fit-content;
-    letter-spacing: 15px;
+    font-size: 53px;
 }
 
-.newsletter{
+.best-sellers{
     margin-top: 80px;
-}
-
-.newsletter h1{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 15px;
-}
-
-.categories ul{
-    display: flex;
-    gap: 10px;
-}
-
-.categories ul li{
-    list-style-type: none;
-    font-size: 20px;
 }
