@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -180,7 +181,7 @@ nav ul {
   text-align: center;
   height: 100%;
   height: fit-content;
-  letter-spacing: 15px;
+  letter-spacing: 9px;
 }
 
 .newsletter {
@@ -205,10 +206,10 @@ nav ul {
   font-size: 20px;
 }
 
-.categories{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product img {
@@ -242,62 +243,126 @@ nav ul {
   gap: 20px;
 }
 
-.categories button{
-    background-color: #1e2832;
-    color: white;
-    width: 83px;
-    height: 35px;
-    font-size: 13px;
-    padding: 5px;
+.categories button {
+  background-color: #1e2832;
+  color: white;
+  width: 83px;
+  height: 35px;
+  font-size: 13px;
+  padding: 5px;
 }
 
-
-.zara img{
-    position: absolute;
-    top: 0;
+.zara img {
+  position: absolute;
+  top: 0;
 }
 
-.zara{
-    background-image: url(./zara.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    height: 100vh;
-    padding: 0;
-    margin-inline: 0;
-    align-items: center;
-    flex-direction: row-reverse;
-    position: relative;
-    width: 100%;
+.zara {
+  background-image: url(./zara.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin-inline: 0;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: relative;
+  width: 100%;
 }
 
-.zara-text{
-    padding: 30px;
-    width: 50%;
-    color: white;
-    padding-right: 287px;
+.zara-text {
+  padding: 30px;
+  width: 50%;
+  color: white;
+  padding-right: 287px;
 }
 
-.zara-text h1{
-    font-size: 45px;
+.zara-text h1 {
+  font-size: 45px;
 }
 
-.zara-text p{
-    line-height: 25px;
+.zara-text p {
+  line-height: 25px;
 }
 
 .zara-text button {
-    margin-top: 35px;
-    width: 165px;
-    height: 45px;
-    font-size: 15px;
+  margin-top: 35px;
+  width: 165px;
+  height: 45px;
+  font-size: 15px;
 }
 
-.best-sellers h1{
-    text-align: center;
-    font-size: 53px;
+.best-sellers h1 {
+  text-align: center;
+  font-size: 53px;
 }
 
-.best-sellers{
-    margin-top: 80px;
+.best-sellers {
+  margin-top: 80px;
+}
+
+.link-to-social {
+  padding-block: 70px;
+  background-color: rgba(255, 111, 97, 0.05);
+}
+
+.link-to-social h1 {
+  font-size: 40px;
+}
+
+.insta-images {
+  padding-block: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter-sub form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter-sub form input {
+  padding-left: 10px;
+  width: 30%;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.newsletter-sub form button {
+  width: 5%;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  cursor: pointer;
+  border-right: none;
+}
+
+footer {
+  background-color: white;
+  padding-top: 50px;
+  padding-inline: 20px;
+}
+
+.footer-section-one {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.footer-section-one-text {
+  text-align: left;
+  line-height: 25px;
+}
+
+.socials {
+  display: flex;
+  gap: 55px;
+  margin-top: 20px;
 }
